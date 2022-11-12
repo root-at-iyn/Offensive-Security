@@ -3,7 +3,7 @@
 ## TL;DR
 
 - All C programs that are executable must have a main function. The main function definiton is case-sensitive and must be lowercase.
-- For input and output, you need to include the `stdio.h` header file from the C Standard library. This contains the function definitons to use functions like `printf`.
+- For input and output, you need to add the include directive for the `stdio.h` header file from the C Standard library. This contains the function definitons to use functions like `printf()`.
 - In C, statements are terminated with a semicolon `;`
 - If your function does not require any parameters, you can add the void keyword in as the parameter to denote that no arguments are required
 - Comments in C89 and C99 start with `/*` and end with `*\`. These are known as multiline comments because text within the comment start and end can span multiple lines. In C99 the inline comment `//` was introduced
