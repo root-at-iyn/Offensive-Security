@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-- All executable programs in C must have a main function. The main function definiton is case-sensitive and must be lowercase.
+- All C programs that are executable must have a main function. The main function definiton is case-sensitive and must be lowercase.
 - For input and output, you need to include the `stdio.h` header file from the C Standard library. This contains the function definitons to use functions like `printf`.
 - In C, statements are terminated with a semicolon `;`
 - If your function does not require any parameters, you can add the void keyword in as the parameter to denote that no arguments are required
