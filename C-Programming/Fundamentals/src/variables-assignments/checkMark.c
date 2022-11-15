@@ -23,4 +23,20 @@ int main() {
     return 0;
 }
 
+// If your are on a .nix environment, you can compile this code with
+// cc -o checkMark checkMark.c
+// When you compile this program, you should see the following:
+
+/*
+Fundamentals % ./bin/checkMark
+            *
+           *
+          *
+         *
+*       *
+ *     *
+  *   *
+   * *
+    *
+*/
 
