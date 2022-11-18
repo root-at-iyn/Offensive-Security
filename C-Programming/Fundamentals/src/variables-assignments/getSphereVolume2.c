@@ -3,7 +3,7 @@
  *
  * While the orginal program getSphereVolume works, it's not flexible at the moment.
  * Every time we want to change the radius value, the program would need to be re-complied.
- * This program introduces teh scanf function, which can be used to prompt the user for a radius value
+ * This program introduces the scanf function, which can be used to prompt the user for a radius value
  * The radius value is then fed into the function  */
 
 # include <stdio.h>
@@ -21,4 +21,9 @@ int main (int argc, char *argv[]) {
     printf("The volume of a sphere given a radius of %.1f metres is: %.2f\n", radius, v);                           
 }
 
-
+/* The output when running the programing should be similar to:
+ *
+ * Enter a radius value: 10
+ * The volume of a sphere given a radius of 10.0 metres is: 4188.79
+ *
+*/
