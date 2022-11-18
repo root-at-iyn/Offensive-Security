@@ -7,7 +7,7 @@
 - Make the server bin executable
 - Start the server 
 
-### Commands
+## Commands
 
 ### Copy the server to the device
 adb push ./frida-server-$version-android-$arch /data/local/tmp/frida-server
