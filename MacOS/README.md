@@ -15,6 +15,9 @@
 - [DylibHijackTest](https://github.com/slyd0g/DylibHijackTest)
 - [ObjCShellcodeLoader](https://github.com/slyd0g/ObjCShellcodeLoader)
 - [TCC-ClickJacking](https://github.com/breakpointHQ/TCC-ClickJacking)
+- [Apple Open Source Releases - (MacOS, iOS, DevTools)](https://opensource.apple.com/releases/)
+- [XNU Kernel](https://github.com/apple-oss-distributions/xnu)
+- [WebKit](https://github.com/apple-oss-distributions/WebKit)
 
 
 ## Apple Developer Docs
@@ -37,13 +40,28 @@
 - [Beyond the good ol' LaunchAgents - 28 - Authorization Plugins](https://theevilbit.github.io/beyond/beyond_0028/)
 - [Working Around macOS Privacy Controls in Red Team Ops](https://cedowens.medium.com/initial-access-checks-on-macos-531dd2d0cee6)
 - [Taking ESF For A(nother) Spin](https://medium.com/@cedowens/taking-esf-for-a-nother-spin-6e1e6acd1b74)
+- [Abusing Slack for Offensive Operations](https://posts.specterops.io/abusing-slack-for-offensive-operations-2343237b9282)
 
 
-## Maleware Analysis Writeups
+## Malware Analysis Writeups
 
 
 
 ## Zero-Day / N-Day Writeups
 
 - [CVE-2021-30808 - CVE-2021-1784 strikes back - TCC bypass via mounting](https://theevilbit.github.io/posts/cve-2021-30808/)
--
+- [Get root on macOS 13.0.1 with CVE-2022-46689, the macOS Dirty Cow bug](https://worthdoingbadly.com/macdirtycow/)
+- [A deep dive into an NSO zero-click iMessage exploit: Remote Code Execution](https://googleprojectzero.blogspot.com/2021/12/a-deep-dive-into-nso-zero-click.html?m=1)
+- [A very deep dive into iOS Exploit chains found in the wild](https://googleprojectzero.blogspot.com/2019/08/a-very-deep-dive-into-ios-exploit.html)
+- [CVE-2021-1782, an iOS in-the-wild vulnerability in vouchers](https://googleprojectzero.blogspot.com/2022/04/cve-2021-1782-ios-in-wild-vulnerability.html)
+- [CVE-2022-22620: Use-after-free in Safari](https://googleprojectzero.github.io/0days-in-the-wild//0day-RCAs/2022/CVE-2022-22620.html)
+- [An Autopsy on a Zombie In-the-Wild 0-day](https://googleprojectzero.blogspot.com/2022/06/an-autopsy-on-zombie-in-wild-0-day.html)
+
+
+## Conference Talks (Video)
+
+- [Objective by the Sea, v5.0](https://www.youtube.com/playlist?list=PLliknDIoYszt5m1kz1vNY90LnR6VMuyOZ)
+- [Objective by the Sea, v4.0](https://www.youtube.com/playlist?list=PLliknDIoYszvjA1Lix-Uce7ZDxS39J2ZY)
+- [Behind the scenes of iOS and Mac Security](https://youtu.be/3byNNUReyvE)
+- [Mythic Feature Examples](https://youtube.com/playlist?list=PLHVFedjbv6sNLB1QqnGJxRBMukPRGYa-H)
+- [Heap Overflow on iOS/Android ARM64](https://youtu.be/CmTA05bcawk)
