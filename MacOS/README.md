@@ -56,6 +56,8 @@
 - [CVE-2021-1782, an iOS in-the-wild vulnerability in vouchers](https://googleprojectzero.blogspot.com/2022/04/cve-2021-1782-ios-in-wild-vulnerability.html)
 - [CVE-2022-22620: Use-after-free in Safari](https://googleprojectzero.github.io/0days-in-the-wild//0day-RCAs/2022/CVE-2022-22620.html)
 - [An Autopsy on a Zombie In-the-Wild 0-day](https://googleprojectzero.blogspot.com/2022/06/an-autopsy-on-zombie-in-wild-0-day.html)
+- [Writing an iOS Kernel Exploit from Scratch](https://secfault-security.com/blog/chain3.html)
+- [CVE-2021-1879: Use-After-Free in QuickTimePluginReplacement](https://googleprojectzero.github.io/0days-in-the-wild//0day-RCAs/2021/CVE-2021-1879.html)
 
 
 ## Conference Talks (Video)
