@@ -18,6 +18,7 @@
 - [Apple Open Source Releases - (MacOS, iOS, DevTools)](https://opensource.apple.com/releases/)
 - [XNU Kernel](https://github.com/apple-oss-distributions/xnu)
 - [WebKit](https://github.com/apple-oss-distributions/WebKit)
+- [iOS-messaging-tools](https://github.com/googleprojectzero/iOS-messaging-tools)
 
 
 ## Apple Developer Docs
@@ -41,10 +42,12 @@
 - [Working Around macOS Privacy Controls in Red Team Ops](https://cedowens.medium.com/initial-access-checks-on-macos-531dd2d0cee6)
 - [Taking ESF For A(nother) Spin](https://medium.com/@cedowens/taking-esf-for-a-nother-spin-6e1e6acd1b74)
 - [Abusing Slack for Offensive Operations](https://posts.specterops.io/abusing-slack-for-offensive-operations-2343237b9282)
+- [In-Memory Execution in macOS: the Old and the New](https://rtx.meta.security/post-exploitation/2022/12/19/In-Memory-Execution-in-macOS.html)
 
 
-## Malware Analysis Writeups
+## Malware Analysis
 
+- [The Art of Mac Malware](https://nostarch.com/art-mac-malware) - (Book by Patrick Wardle)
 
 
 ## Zero-Day / N-Day Writeups
@@ -67,3 +70,4 @@
 - [Behind the scenes of iOS and Mac Security](https://youtu.be/3byNNUReyvE)
 - [Mythic Feature Examples](https://youtube.com/playlist?list=PLHVFedjbv6sNLB1QqnGJxRBMukPRGYa-H)
 - [Heap Overflow on iOS/Android ARM64](https://youtu.be/CmTA05bcawk)
+- [Look, No Hands! -- The Remote, Interaction-less Attack Surface of the iPhone](https://youtu.be/ySxzkBSFkxQ)
