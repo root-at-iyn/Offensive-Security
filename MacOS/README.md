@@ -71,3 +71,4 @@
 - [Mythic Feature Examples](https://youtube.com/playlist?list=PLHVFedjbv6sNLB1QqnGJxRBMukPRGYa-H)
 - [Heap Overflow on iOS/Android ARM64](https://youtu.be/CmTA05bcawk)
 - [Look, No Hands! -- The Remote, Interaction-less Attack Surface of the iPhone](https://youtu.be/ySxzkBSFkxQ)
+- [DEF CON 29 - Patrick Wardle - Bundles of Joy: Breaking MacOS via Subverted Applications Bundles](https://youtu.be/raSTgFqYaoc)
