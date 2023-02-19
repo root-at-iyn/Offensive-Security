@@ -53,11 +53,8 @@ Escape characters such as `\n` are used in strings to enable control character f
 Name          |  Character
 ------------- | ---------
 Alert (bell)  |      \n
-------------- | ---------
 Backspace     |      \b
-------------- | ---------
 New line      |      \n
-------------- | ---------
 Horizonal tab |      \t
 
 
