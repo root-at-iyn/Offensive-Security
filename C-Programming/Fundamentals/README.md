@@ -1,4 +1,9 @@
-# The Basics
+# Contents
+
+1. [Intro](README.md#intro)
+2. [Variables and Assigments](VARIABLES-ASSIGNMENTS.md)
+
+# Intro
 
 ## TL;DR
 
