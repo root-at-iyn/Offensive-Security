@@ -52,16 +52,16 @@ Now we can use this list in another Intruder attack, this time referencing the p
 
 # Step 4
 
-In Intruder, select to add both the username and password parameters, and select the attack type as cluster bomb.
+In Intruder, select to add both the username and password parameters, and select the attack type as `Cluster bomb`.
 
 ![Intruder Cluster Bomb](../../Images/Intruder_cluster_bomb.png)
 
 Use the usernames we saved from the previous attack in payload 1, and the passwords in payload 2. Now start the attack. 
 
-We check check the results and filter the responses by any responses that do not have the string `Invalid username or password`.
+Check the results and filter them by any response that does not have the string `Invalid username or password`.
 
 ![Cluster Bomb filtered results](../../Images/Intruder_cluster_bomb_filter_positve_res.png)
 
-As you can see in the image above, the HTTP `302` response reveals that we have guessed the passowrd correctly. When you send a `POST` request to submit a form, the normal application flow is to redirect you back to a page using a `GET` request. This prevents issues where the form is resubmitted. Ref: [Post/Redirect/Get](https://en.wikipedia.org/wiki/Post/Redirect/Get#:~:text=Post%2FRedirect%2FGet%20(PRG,submitting%20the%20form%20another%20time.))
+As you can see in the image above, the HTTP `302` response reveals that we have guessed the password correctly. When you send a `POST` request to submit a form, the normal application flow is to redirect you back to a page using a `GET` request. This prevents issues where the form is resubmitted. Ref: [Post/Redirect/Get](https://en.wikipedia.org/wiki/Post/Redirect/Get#:~:text=Post%2FRedirect%2FGet%20(PRG,submitting%20the%20form%20another%20time.))
 
 Now you have the creds, you can login and solve the lab!
