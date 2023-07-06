@@ -1,6 +1,6 @@
 # MacOS Security
 
-### This section aims to cover content related to MacOS Security and Internals. I've found it hard to find good Offensive Security content for the MacOS enviroment (at least compared to Windows) so I'm attempting to make things better
+### This section aims to cover content related to MacOS Security and Internals. I've found it hard to find good Offensive Security content for the MacOS environment (at least compared to Windows) so I'm attempting to make things better
 
 # Quick Resources
 

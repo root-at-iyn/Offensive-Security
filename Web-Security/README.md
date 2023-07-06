@@ -1,5 +1,8 @@
 # Web Application & API Hacking
 
+## Sections
+### [Writeups](./Writeups/README.md)
+
 ## Offensive Web App Security
 
 Web Application Security (Web App) Security is quite a big topic, and this is mainly due to each application being built slightly different. That being said, a lot of the fundamental things will remain the same. For instance an app will usually need: 

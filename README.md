@@ -1,5 +1,20 @@
 # Offensive Security Notes
 
-## Wanna learn offensive security independently:question: So do I:exclamation: :smirk:
-### Let's face it, learning offensive security without a background in computer science or programming is a challenging feat. 
-### I've created this repo to teach myself offensive security from the ground up, the way I would have liked someone to have shown me when I started out. I don't aim to be perfect here, and this repo should just be treated as my notes, but hopefully it will be helpful to someone searching for answers in the same way I am.
+## Overview
+
+### This repo is my playground for all things Offensive Security related. 
+
+It contains:
+
+- learning materials 
+- courses 
+- research 
+- writeups to challenges I've done 
+
+Hopefully it will be helpful to someone searching for answers or examples of security topics in the same way I am.
+
+## Topics
+
+### [Web Security](./Web-Security/README.md)
+### [Exploit Development](./Exploit-Dev/README.md)
+### [MacOS](./MacOS/README.md)
