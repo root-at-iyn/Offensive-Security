@@ -14,3 +14,8 @@ These scripts are examples of how to use Python to exploit web security vulnerab
 #### [Blind SQLi with out-of-band interaction (Data Exfiltration)](./Scripts/SQLi/blindSQLi_OOB_exploit.py)
 #### [SQLi with filter bypass via XML encoding](./Scripts/SQLi/SQLi_filter_bypass_xml.py)
 #### [SQLi listing the database contents on Oracle and Non-Oracle databases](./Scripts/SQLi/SQLi_examine_db.py)
+
+## Labs
+
+### Authentication
+#### [Username Enumeration with subtly different responses](./Labs/Authentication/Username_Enum_subtly_diff_res.md)
