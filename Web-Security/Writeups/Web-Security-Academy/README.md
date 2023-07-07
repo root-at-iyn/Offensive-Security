@@ -15,7 +15,12 @@ These scripts are examples of how to use Python to exploit web security vulnerab
 #### [SQLi with filter bypass via XML encoding](./Scripts/SQLi/SQLi_filter_bypass_xml.py)
 #### [SQLi listing the database contents on Oracle and Non-Oracle databases](./Scripts/SQLi/SQLi_examine_db.py)
 
+### Authentication
+#### [Broken brute force protection - IP block](./Scripts/Authentication/Broken_bruteforce_protect_IP_block.py)
+#### [Username Enumeration via response timing](./Scripts/Authentication/Username_Enum_response_times.py)
+
 ## Labs
 
 ### Authentication
 #### [Username Enumeration with subtly different responses](./Labs/Authentication/Username_Enum_subtly_diff_res.md)
+#### [User Enumeration via response timing](./Labs/Authentication/Username_Enum_via_response_times.md)
