@@ -18,3 +18,4 @@ Hopefully it will be helpful to someone searching for answers or examples of sec
 ### [Web Security](./Web-Security/README.md)
 ### [Exploit Development](./Exploit-Dev/README.md)
 ### [MacOS](./MacOS/README.md)
+### [Malware Development](./Mal-Dev/README.md)
