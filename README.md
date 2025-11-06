@@ -17,3 +17,4 @@ Hopefully it will be helpful to someone searching for answers or examples of sec
 ### [Exploit Development](./Exploit-Dev/README.md)
 ### [MacOS](./MacOS/README.md)
 ### [Malware Development](./Mal-Dev/README.md)
+### [Vulnerability Research](./VR/README.md)
