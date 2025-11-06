@@ -5,7 +5,7 @@
 ### Top blogs to follow
 
 - [0day Fans](https://0dayfans.com/)
-- [Google Project Zero](Google Project Zero)
+- [Google Project Zero](https://googleprojectzero.blogspot.com/)
 - [Synactiv](https://www.synacktiv.com/en/publications%253Ffield_tags_target_id%253D3)
 - [Github Security Lab](https://github.blog/security/)
 - [Trail of Bits](https://blog.trailofbits.com/)
