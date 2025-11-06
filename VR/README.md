@@ -20,4 +20,4 @@
 - [Jonathan Bar Or](https://jonathanbaror.com/)
 - [Spaceracoon](https://spaceraccoon.dev/)
 - [Jub0bs](https://jub0bs.com/posts/)
-
+- [Connor McGarr](https://connormcgarr.github.io/)
