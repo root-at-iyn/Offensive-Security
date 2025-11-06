@@ -52,6 +52,6 @@ There are useful when fuzzing, brute forcing, or crafting payloads to send to an
 - [SecLists](https://github.com/danielmiessler/SecLists)
 - [Payloads All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings)
 
-In the `Web-Security` of this repo, it's mainly going to be writeups to challenges or labs. There's so much good content out there already, I won't be duplicating that :grin:
+In the `Web-Security` section of this repo, it's mainly going to be writeups to challenges or labs. There's so much good content out there already, I won't be duplicating that :grin:
 
 I hope this helps someone; have fun and happy hacking :sunglasses:
