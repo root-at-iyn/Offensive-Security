@@ -6,9 +6,7 @@
 
 It contains:
 
-- learning materials 
-- courses 
-- research 
+- resources 
 - writeups to challenges I've done 
 
 Hopefully it will be helpful to someone searching for answers or examples of security topics in the same way I am.
