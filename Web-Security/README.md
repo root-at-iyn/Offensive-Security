@@ -29,6 +29,7 @@ There's multiple resources available online to get started with Web App hacking 
     - [NodeGoat](https://www.owasp.org/index.php/OWASP_Node_js_Goat_Project) (Node.js)
     - [OWASP Juice Shop](https://owasp-juice.shop/) (TypeScript, JavaScript, Angular, Node.js)
     - [WebGoat](https://owasp.org/www-project-webgoat/) (Java)
+    - [RailsGoat](https://github.com/OWASP/railsgoat) (Ruby on Rails)
 - [PortSwigger Web Security Accademy](https://portswigger.net/web-security): Probably has the best learning content with labs to practice, and is absolutely free :smirk:
 - [HackTheBox](https://www.hackthebox.com/hacker): Most people have heard of this one by now, but they do ctf styled machines where you have to hack and compromise the system (box). You do have to pay to access archived machines, but it's worth it if you are preparing for exams like the **OSCP** or **OWSE**. For a list of HackTheBox machines that have a similarity to these exam labs, see [Vulnhub/Hackthebox OSWE-like VMs](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=665299979)
 
