@@ -22,7 +22,7 @@ def decrypt_ecb_data(data: bytes, key: bytes):
     return decryptor.update(data) + decryptor.finalize()
 
 if __name__  == "__main__":
-    file_data = get_filedata("./7.txt")
+    file_data = get_filedata("./Data/7.txt")
     ecb_key = b"YELLOW SUBMARINE"
     decrypted_data = decrypt_ecb_data(file_data, ecb_key)
     print(decrypted_data)

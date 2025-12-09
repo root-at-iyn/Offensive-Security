@@ -30,7 +30,7 @@ def find_key(hex_str: str) -> list:
         decoded_strings.append(single_byte_xor(bytes.fromhex(hex_str), char.to_bytes() ))
 
     decoded_str_map = {k: {"length":0, "words":[]} for k in decoded_strings}
-    with open("./words_dictionary.json") as wordlist:
+    with open("./Data/words_dictionary.json") as wordlist:
         for w in json.load(wordlist):
             for s in decoded_str_map.keys():
                 if w in s.lower():

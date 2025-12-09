@@ -26,7 +26,7 @@ def transpose_blocks(ciphertext_list: list, blksize: int = 16):
     return ciphertext_blocks
 
 if __name__ == "__main__":
-    data = (get_filedata("./8.txt"))
+    data = (get_filedata("./Data/8.txt"))
     t = transpose_blocks(data)
     for i in range(len(t)):
         if len(set(t[i])) != len(t[i]):

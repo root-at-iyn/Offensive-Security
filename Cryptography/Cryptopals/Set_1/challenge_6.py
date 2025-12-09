@@ -139,7 +139,7 @@ def decrypt(encrypted_data: bytes, key: bytes) -> bytes:
 
 if __name__ == "__main__":
 
-    blk = get_file_data("./6.txt")
+    blk = get_file_data("./Data/6.txt")
     key_size = find_repkey_xor_keysize(blk, 1, 41)
     t = transpose_blocks(blk,key_size)
     key = find_key(t,key_size,search_chars=string.printable)

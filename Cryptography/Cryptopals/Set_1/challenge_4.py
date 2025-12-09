@@ -31,7 +31,7 @@ def find_key(hex_str: str) -> list:
     return decoded_strings
 
 def decrypt_single_char_xor():
-    with open("./4.txt") as f:
+    with open("./Data/4.txt") as f:
         hex_strings = [x.rstrip() for x in f]
     
     decoded_hex_strings = []
@@ -45,7 +45,7 @@ def decrypt_single_char_xor():
             except UnicodeDecodeError as e:
                 pass
     decoded_str_map = {k: {"length":0, "words":[]} for k in utf8_strs}
-    with open("./words_dictionary.json") as wordlist:
+    with open("./Data/words_dictionary.json") as wordlist:
         for w in json.load(wordlist):
             for s in decoded_str_map.keys():
                 if w in s.lower():
