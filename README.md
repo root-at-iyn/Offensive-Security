@@ -19,4 +19,4 @@ Hopefully it will be helpful to someone searching for answers or examples of sec
 ### [Malware Development](./Mal-Dev/README.md)
 ### [Vulnerability Research](./VR/README.md)
 ### [Android](./Android)
-### [Cryptography](./Cryptopals/Set_1/README.md)
+### [Cryptography](./Cryptography/Cryptopals/Set_1/README.md)
