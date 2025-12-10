@@ -6,7 +6,7 @@
 def pkcs7(block: bytes, blocksize: int) -> bytes:
     if len(block) % blocksize != 0:
         padsize = blocksize - (len(block) % blocksize)
-        padding = b"\x07" * padsize
+        padding = padsize.to_bytes() * padsize
         return block + padding 
     else:
         return block
