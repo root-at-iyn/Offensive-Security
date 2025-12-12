@@ -3,21 +3,24 @@
 # Implement PKCS#7 padding
 
 
-def pkcs7(block: bytes, blocksize: int) -> bytes:
-    if len(block) % blocksize != 0:
-        padsize = blocksize - (len(block) % blocksize)
-        padding = padsize.to_bytes() * padsize
-        return block + padding 
-    else:
-        return block
+def pkcs7_pad(data: bytes, blocksize: int = 16) -> bytes:
+    padsize = blocksize - (len(data) % blocksize)
+    padding = padsize.to_bytes() * padsize
+    return data + padding 
+
+def pkcs7_unpad(data: bytes) -> bytes:
+    last_byte = data[-1]
+    if data.endswith(bytes(chr(last_byte).encode('ascii') *last_byte)):
+        return data[:-last_byte]
 
 if __name__ == "__main__":
-    ys = b"YELLOW SUBMARINE AND 12345"
+    ys = b"YELLOW SUBMARINE"
     blksize = 16
-    print(pkcs7(ys, 16))
+    print(pkcs7_pad(ys))
     print(f"Bytes Length: {len(ys)}")
     print(f"Pad Length: {blksize - (len(ys) % blksize)}")
     print(f"Block Size: {blksize}")
+    print(f"Data Unpadded: {pkcs7_unpad(pkcs7_pad(ys))}")
 
 
 # Expected Output:
