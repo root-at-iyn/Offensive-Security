@@ -16,13 +16,18 @@ def get_filedata(filename: str) -> bytes:
         data = fp.read()
     return base64.b64decode(data) 
 
-def decrypt_ecb_data(data: bytes, key: bytes):
+def decrypt_ecb_data(data: bytes, key: bytes) -> bytes:
     cipher = Cipher(algorithms.AES(key), modes.ECB())
     decryptor = cipher.decryptor()
     return decryptor.update(data) + decryptor.finalize()
 
+def encrypt_ecb_data(data: bytes, key: bytes) -> bytes:
+    cipher = Cipher(algorithms.AES(key), modes.ECB())
+    encryptor = cipher.encryptor()
+    return encryptor.update(data) + encryptor.finalize()
+
 if __name__  == "__main__":
-    file_data = get_filedata("./Data/7.txt")
+    file_data = get_filedata("./7.txt")
     ecb_key = b"YELLOW SUBMARINE"
     decrypted_data = decrypt_ecb_data(file_data, ecb_key)
     print(decrypted_data)
