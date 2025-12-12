@@ -25,9 +25,10 @@ if __name__ == "__main__":
 
 # Expected Output:
 
-#root-at-iyn@Ubuntu-220403-x86-64:~/Cryptography/Cryptopals/Set2$ ./challenge_9.py
-#b'YELLOW SUBMARINE AND 12345\x07\x07\x07\x07\x07\x07'
-#Bytes Length: 26
-#Pad Length: 6
+#root-at-iyn@Ubuntu-220403-x86-64:~/Cryptography/Cryptopals/Set2$ ./challenge_9.py 
+#b'YELLOW SUBMARINE\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10'
+#Bytes Length: 16
+#Pad Length: 16
 #Block Size: 16
+#Data Unpadded: b'YELLOW SUBMARINE'
 
