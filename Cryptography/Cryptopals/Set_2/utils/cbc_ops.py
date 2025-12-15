@@ -11,12 +11,20 @@
 
 import base64
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
-from utils.padding import pkcs7_pad, pkcs7_unpad
+from challenge_9 import pkcs7_pad, pkcs7_unpad
 
 def get_filedata(filename: str) -> bytes:
     with open(filename, "rb") as fp:
         data = fp.read()
     return base64.b64decode(data)
+
+def pkcs7(block: bytes, blocksize: int) -> bytes:
+    if len(block) % blocksize != 0:
+        padsize = (blocksize - len(block) % blocksize)
+        padding = padsize.to_bytes() * padsize
+        return block + padding 
+    else:
+        return block
 
 def decrypt_cbc_data(ciphertext: bytes, key: bytes, iv: bytes) -> bytes:
     blocksize = 16
