@@ -73,16 +73,14 @@ Hopefully it will be helpful to someone searching for answers or examples of sec
 
 ### Cryptography
 
-### [Cryptopals - Convert hex to base64](./Cryptography/Cryptopals/Set_1/challenge_1.py)
-### [Cryptopals - Fixed XOR](./Cryptography/Cryptopals/Set_1/challenge_2.py)
-### [Cryptopals - Single-byte XOR cipher](./Cryptography/Cryptopals/Set_1/challenge_3.py)
-### [Cryptopals - Detect single-character XOR](./Cryptography/Cryptopals/Set_1/challenge_4.py)
-### [Cryptopals - Implement reapeating-key XOR](./Cryptography/Cryptopals/Set_1/challenge_5.py)
-### [Cryptopals - Break repeating-key XOR](./Cryptography/Cryptopals/Set_1/challenge_6.py)
-### [Cryptopals - AES in ECB mode](./Cryptography/Cryptopals/Set_1/challenge_7.py)
-### [Cryptopals - Detect AES in ECB mode](./Cryptography/Cryptopals/Set_1/challenge_8.py)
-### [Cryptopals - Implement PKCS#7 padding](./Cryptography/Cryptopals/Set_2/challenge_9.py)
-### [Cryptopals - Implement CBC mode](./Cryptography/Cryptopals/Set_2/challenge_10.py)
-### [Cryptopals - An ECB/CBC detection oracle](./Cryptography/Cryptopals/Set_2/challenge_11.py)
-
-
+#### [Cryptopals - Convert hex to base64](./Cryptography/Cryptopals/Set_1/challenge_1.py)
+#### [Cryptopals - Fixed XOR](./Cryptography/Cryptopals/Set_1/challenge_2.py)
+#### [Cryptopals - Single-byte XOR cipher](./Cryptography/Cryptopals/Set_1/challenge_3.py)
+#### [Cryptopals - Detect single-character XOR](./Cryptography/Cryptopals/Set_1/challenge_4.py)
+#### [Cryptopals - Implement reapeating-key XOR](./Cryptography/Cryptopals/Set_1/challenge_5.py)
+#### [Cryptopals - Break repeating-key XOR](./Cryptography/Cryptopals/Set_1/challenge_6.py)
+#### [Cryptopals - AES in ECB mode](./Cryptography/Cryptopals/Set_1/challenge_7.py)
+#### [Cryptopals - Detect AES in ECB mode](./Cryptography/Cryptopals/Set_1/challenge_8.py)
+#### [Cryptopals - Implement PKCS#7 padding](./Cryptography/Cryptopals/Set_2/challenge_9.py)
+#### [Cryptopals - Implement CBC mode](./Cryptography/Cryptopals/Set_2/challenge_10.py)
+#### [Cryptopals - An ECB/CBC detection oracle](./Cryptography/Cryptopals/Set_2/challenge_11.py)
